@@ -5,7 +5,6 @@ body, html {
 body {
     margin: 0;
     padding: 0;
-    background: gray;
 
     display: flex;
     flex-direction: row;
@@ -16,9 +15,10 @@ body {
 
 .form-box {
     width: 300px;
-    padding: 40px;
-    background: black;
+    padding: 16px 12px;
+    background: rgb(31, 24, 24);
     text-align: center;
+    border-radius: 12px;
 }
 
 .form-tittle {
@@ -46,7 +46,7 @@ body {
 
 .form-box input[type="text"]:focus,
 .form-box input[type="password"]:focus {
-    width: 280px;
+    width: 260px;
     border-color: rgba(32, 8, 172, 0.712);
 }
 
